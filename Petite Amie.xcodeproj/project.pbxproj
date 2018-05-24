@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA2958420B6AE6100FC6B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2958320B6AE6100FC6B5D /* AppDelegate.swift */; };
+		BDA2958620B6AE6100FC6B5D /* DocumentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2958520B6AE6100FC6B5D /* DocumentListViewController.swift */; };
+		BDA2958920B6AE6100FC6B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2958720B6AE6100FC6B5D /* Main.storyboard */; };
+		BDA2958B20B6AE6200FC6B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA2958A20B6AE6200FC6B5D /* Assets.xcassets */; };
+		BDA2958E20B6AE6200FC6B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA2958C20B6AE6200FC6B5D /* LaunchScreen.storyboard */; };
+		BDA2959920B6AE6200FC6B5D /* Petite_AmieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2959820B6AE6200FC6B5D /* Petite_AmieTests.swift */; };
+		BDA295A420B6AE6200FC6B5D /* Petite_AmieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA295A320B6AE6200FC6B5D /* Petite_AmieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDA2959520B6AE6200FC6B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA2957820B6AE6100FC6B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA2957F20B6AE6100FC6B5D;
+			remoteInfo = "Petite Amie";
+		};
+		BDA295A020B6AE6200FC6B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDA2957820B6AE6100FC6B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDA2957F20B6AE6100FC6B5D;
+			remoteInfo = "Petite Amie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA2958020B6AE6100FC6B5D /* Petite Amie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Petite Amie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2958320B6AE6100FC6B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDA2958520B6AE6100FC6B5D /* DocumentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentListViewController.swift; sourceTree = "<group>"; };
+		BDA2958820B6AE6100FC6B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDA2958A20B6AE6200FC6B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA2958D20B6AE6200FC6B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDA2958F20B6AE6200FC6B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2959420B6AE6200FC6B5D /* Petite AmieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Petite AmieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2959820B6AE6200FC6B5D /* Petite_AmieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petite_AmieTests.swift; sourceTree = "<group>"; };
+		BDA2959A20B6AE6200FC6B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2959F20B6AE6200FC6B5D /* Petite AmieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Petite AmieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA295A320B6AE6200FC6B5D /* Petite_AmieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petite_AmieUITests.swift; sourceTree = "<group>"; };
+		BDA295A520B6AE6200FC6B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA295B120B6B17B00FC6B5D /* Petite Amie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Petite Amie.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDA2957D20B6AE6100FC6B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959120B6AE6200FC6B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959C20B6AE6200FC6B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDA2957720B6AE6100FC6B5D = {
+			isa = PBXGroup;
+			children = (
+				BDA2958220B6AE6100FC6B5D /* Petite Amie */,
+				BDA2959720B6AE6200FC6B5D /* Petite AmieTests */,
+				BDA295A220B6AE6200FC6B5D /* Petite AmieUITests */,
+				BDA2958120B6AE6100FC6B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDA2958120B6AE6100FC6B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2958020B6AE6100FC6B5D /* Petite Amie.app */,
+				BDA2959420B6AE6200FC6B5D /* Petite AmieTests.xctest */,
+				BDA2959F20B6AE6200FC6B5D /* Petite AmieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA2958220B6AE6100FC6B5D /* Petite Amie */ = {
+			isa = PBXGroup;
+			children = (
+				BDA295B120B6B17B00FC6B5D /* Petite Amie.entitlements */,
+				BDA2958320B6AE6100FC6B5D /* AppDelegate.swift */,
+				BDA2958520B6AE6100FC6B5D /* DocumentListViewController.swift */,
+				BDA2958720B6AE6100FC6B5D /* Main.storyboard */,
+				BDA2958A20B6AE6200FC6B5D /* Assets.xcassets */,
+				BDA2958C20B6AE6200FC6B5D /* LaunchScreen.storyboard */,
+				BDA2958F20B6AE6200FC6B5D /* Info.plist */,
+			);
+			path = "Petite Amie";
+			sourceTree = "<group>";
+		};
+		BDA2959720B6AE6200FC6B5D /* Petite AmieTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2959820B6AE6200FC6B5D /* Petite_AmieTests.swift */,
+				BDA2959A20B6AE6200FC6B5D /* Info.plist */,
+			);
+			path = "Petite AmieTests";
+			sourceTree = "<group>";
+		};
+		BDA295A220B6AE6200FC6B5D /* Petite AmieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA295A320B6AE6200FC6B5D /* Petite_AmieUITests.swift */,
+				BDA295A520B6AE6200FC6B5D /* Info.plist */,
+			);
+			path = "Petite AmieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDA2957F20B6AE6100FC6B5D /* Petite Amie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA295A820B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite Amie" */;
+			buildPhases = (
+				BDA2957C20B6AE6100FC6B5D /* Sources */,
+				BDA2957D20B6AE6100FC6B5D /* Frameworks */,
+				BDA2957E20B6AE6100FC6B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Petite Amie";
+			productName = "Petite Amie";
+			productReference = BDA2958020B6AE6100FC6B5D /* Petite Amie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDA2959320B6AE6200FC6B5D /* Petite AmieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA295AB20B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite AmieTests" */;
+			buildPhases = (
+				BDA2959020B6AE6200FC6B5D /* Sources */,
+				BDA2959120B6AE6200FC6B5D /* Frameworks */,
+				BDA2959220B6AE6200FC6B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA2959620B6AE6200FC6B5D /* PBXTargetDependency */,
+			);
+			name = "Petite AmieTests";
+			productName = "Petite AmieTests";
+			productReference = BDA2959420B6AE6200FC6B5D /* Petite AmieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDA2959E20B6AE6200FC6B5D /* Petite AmieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA295AE20B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite AmieUITests" */;
+			buildPhases = (
+				BDA2959B20B6AE6200FC6B5D /* Sources */,
+				BDA2959C20B6AE6200FC6B5D /* Frameworks */,
+				BDA2959D20B6AE6200FC6B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDA295A120B6AE6200FC6B5D /* PBXTargetDependency */,
+			);
+			name = "Petite AmieUITests";
+			productName = "Petite AmieUITests";
+			productReference = BDA2959F20B6AE6200FC6B5D /* Petite AmieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDA2957820B6AE6100FC6B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = hemu;
+				TargetAttributes = {
+					BDA2957F20B6AE6100FC6B5D = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					BDA2959320B6AE6200FC6B5D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDA2957F20B6AE6100FC6B5D;
+					};
+					BDA2959E20B6AE6200FC6B5D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDA2957F20B6AE6100FC6B5D;
+					};
+				};
+			};
+			buildConfigurationList = BDA2957B20B6AE6100FC6B5D /* Build configuration list for PBXProject "Petite Amie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDA2957720B6AE6100FC6B5D;
+			productRefGroup = BDA2958120B6AE6100FC6B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDA2957F20B6AE6100FC6B5D /* Petite Amie */,
+				BDA2959320B6AE6200FC6B5D /* Petite AmieTests */,
+				BDA2959E20B6AE6200FC6B5D /* Petite AmieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDA2957E20B6AE6100FC6B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2958E20B6AE6200FC6B5D /* LaunchScreen.storyboard in Resources */,
+				BDA2958B20B6AE6200FC6B5D /* Assets.xcassets in Resources */,
+				BDA2958920B6AE6100FC6B5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959220B6AE6200FC6B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959D20B6AE6200FC6B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDA2957C20B6AE6100FC6B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2958620B6AE6100FC6B5D /* DocumentListViewController.swift in Sources */,
+				BDA2958420B6AE6100FC6B5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959020B6AE6200FC6B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA2959920B6AE6200FC6B5D /* Petite_AmieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA2959B20B6AE6200FC6B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA295A420B6AE6200FC6B5D /* Petite_AmieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDA2959620B6AE6200FC6B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA2957F20B6AE6100FC6B5D /* Petite Amie */;
+			targetProxy = BDA2959520B6AE6200FC6B5D /* PBXContainerItemProxy */;
+		};
+		BDA295A120B6AE6200FC6B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDA2957F20B6AE6100FC6B5D /* Petite Amie */;
+			targetProxy = BDA295A020B6AE6200FC6B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDA2958720B6AE6100FC6B5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2958820B6AE6100FC6B5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDA2958C20B6AE6200FC6B5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDA2958D20B6AE6200FC6B5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDA295A620B6AE6200FC6B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDA295A720B6AE6200FC6B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDA295A920B6AE6200FC6B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Petite Amie/Petite Amie.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Petite Amie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-Amie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDA295AA20B6AE6200FC6B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Petite Amie/Petite Amie.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Petite Amie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-Amie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDA295AC20B6AE6200FC6B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Petite AmieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-AmieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petite Amie.app/Petite Amie";
+			};
+			name = Debug;
+		};
+		BDA295AD20B6AE6200FC6B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Petite AmieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-AmieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petite Amie.app/Petite Amie";
+			};
+			name = Release;
+		};
+		BDA295AF20B6AE6200FC6B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Petite AmieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-AmieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Petite Amie";
+			};
+			name = Debug;
+		};
+		BDA295B020B6AE6200FC6B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Petite AmieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hemu.Petite-AmieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Petite Amie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDA2957B20B6AE6100FC6B5D /* Build configuration list for PBXProject "Petite Amie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA295A620B6AE6200FC6B5D /* Debug */,
+				BDA295A720B6AE6200FC6B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA295A820B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite Amie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA295A920B6AE6200FC6B5D /* Debug */,
+				BDA295AA20B6AE6200FC6B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA295AB20B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite AmieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA295AC20B6AE6200FC6B5D /* Debug */,
+				BDA295AD20B6AE6200FC6B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA295AE20B6AE6200FC6B5D /* Build configuration list for PBXNativeTarget "Petite AmieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA295AF20B6AE6200FC6B5D /* Debug */,
+				BDA295B020B6AE6200FC6B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDA2957820B6AE6100FC6B5D /* Project object */;
+}
