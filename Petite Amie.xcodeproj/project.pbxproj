@@ -48,6 +48,7 @@
 		BDA295A320B6AE6200FC6B5D /* Petite_AmieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petite_AmieUITests.swift; sourceTree = "<group>"; };
 		BDA295A520B6AE6200FC6B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA295B120B6B17B00FC6B5D /* Petite Amie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Petite Amie.entitlements"; sourceTree = "<group>"; };
+		BDA295B420B6C38100FC6B5D /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		BDA2957720B6AE6100FC6B5D = {
 			isa = PBXGroup;
 			children = (
+				BDA295B420B6C38100FC6B5D /* Readme.md */,
 				BDA2958220B6AE6100FC6B5D /* Petite Amie */,
 				BDA2959720B6AE6200FC6B5D /* Petite AmieTests */,
 				BDA295A220B6AE6200FC6B5D /* Petite AmieUITests */,
